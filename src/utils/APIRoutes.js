@@ -1,4 +1,4 @@
-export const BASE_URL=process.env.BASE_URL;
+export const BASE_URL="https://chat-app-backend-eh12.onrender.com";
 export const loginRoute = `${BASE_URL}/api/auth/login`;
 export const registerRoute = `${BASE_URL}/api/auth/register`;
 export const logoutRoute = `${BASE_URL}/api/auth/logout`;
